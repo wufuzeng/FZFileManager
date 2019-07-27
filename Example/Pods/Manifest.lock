@@ -1,0 +1,16 @@
+PODS:
+  - FZFileManager (0.1.0)
+
+DEPENDENCIES:
+  - FZFileManager (from `../`)
+
+EXTERNAL SOURCES:
+  FZFileManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FZFileManager: dc2c1499c2586cf2d7d1b08df9b57de661652257
+
+PODFILE CHECKSUM: 9c98a88d4bceb6f0b393850e8418701f6fb90b61
+
+COCOAPODS: 1.7.4

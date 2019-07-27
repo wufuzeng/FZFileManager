@@ -1,0 +1,6 @@
+framework module FZFileManager {
+  umbrella header "FZFileManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

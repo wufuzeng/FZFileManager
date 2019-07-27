@@ -1,0 +1,22 @@
+{
+  "name": "FZFileManager",
+  "version": "0.1.0",
+  "summary": "A short description of FZFileManager.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wufuzeng/FZFileManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wufuzeng": "wufuzeng_lucky@sina.com"
+  },
+  "source": {
+    "git": "https://github.com/wufuzeng/FZFileManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FZFileManager/Classes/**/*"
+}
