@@ -10,6 +10,13 @@
 #endif
 #endif
 
+#import "FZFileManager.h"
+#import "FZFileCache.h"
+#import "FZFileDownloader.h"
+#import "FZFileOperation.h"
+#import "FZFileReceiver.h"
+#import "FZFolderOperation.h"
+#import "FZPathOperation.h"
 
 FOUNDATION_EXPORT double FZFileManagerVersionNumber;
 FOUNDATION_EXPORT const unsigned char FZFileManagerVersionString[];

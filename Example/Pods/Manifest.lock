@@ -1,5 +1,5 @@
 PODS:
-  - FZFileManager (0.1.0)
+  - FZFileManager (0.0.1)
 
 DEPENDENCIES:
   - FZFileManager (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FZFileManager: dc2c1499c2586cf2d7d1b08df9b57de661652257
+  FZFileManager: 4be9a07ba3750a5e2354e0e575521e4288874e94
 
 PODFILE CHECKSUM: 9c98a88d4bceb6f0b393850e8418701f6fb90b61
 
