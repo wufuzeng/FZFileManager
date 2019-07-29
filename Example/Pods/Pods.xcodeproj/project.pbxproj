@@ -49,9 +49,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07048824E2B493B21E94B95B976F4D81 /* FZFileManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FZFileManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		07048824E2B493B21E94B95B976F4D81 /* FZFileManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FZFileManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0F5948471B766F64C173D386A3D28CBC /* FZFileManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FZFileManager.modulemap; sourceTree = "<group>"; };
-		16F90BC2FC247A60581207FCFFFBFE40 /* FZFileManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FZFileManager.framework; path = FZFileManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		16F90BC2FC247A60581207FCFFFBFE40 /* FZFileManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FZFileManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A06CCF3D4AD3371CDD1A13531D269F0 /* Pods-FZFileManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FZFileManager_Example-umbrella.h"; sourceTree = "<group>"; };
 		1EFD1C6DFDA4B7CA22DB0A0ED619D571 /* Pods-FZFileManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FZFileManager_Example-dummy.m"; sourceTree = "<group>"; };
 		25E0911EAC98158537732C52BE7CFA04 /* Pods-FZFileManager_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FZFileManager_Example-Info.plist"; sourceTree = "<group>"; };
@@ -75,22 +75,22 @@
 		7E7724FAE5A8FC874558FA0AA26A5229 /* Pods-FZFileManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FZFileManager_Example.modulemap"; sourceTree = "<group>"; };
 		7F3AA54870743A863C10D5DA512AD8A4 /* FZFileManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FZFileManager.h; path = FZFileManager/Classes/FZFileManager.h; sourceTree = "<group>"; };
 		7FF81832DA922980415C2137250659C8 /* Pods-FZFileManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FZFileManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		96B0DDFE795617D89194450CBF264DA9 /* Pods_FZFileManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FZFileManager_Example.framework; path = "Pods-FZFileManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96B0DDFE795617D89194450CBF264DA9 /* Pods_FZFileManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FZFileManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A46CD18B6CD7458634345EFE74DDA840 /* FZFileManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FZFileManager-prefix.pch"; sourceTree = "<group>"; };
 		AB90A6417C1033D234772F46A85DE99B /* FZFileManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FZFileManager-umbrella.h"; sourceTree = "<group>"; };
 		AEF469B915EE537EF51E7902DE0C9850 /* Pods-FZFileManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FZFileManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B08BA6EC6420F10C8870F2B57AF0A906 /* FZFileManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FZFileManager-dummy.m"; sourceTree = "<group>"; };
-		B3B2531B1C983868AC5C2DFDD74D2323 /* Pods_FZFileManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FZFileManager_Tests.framework; path = "Pods-FZFileManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3B2531B1C983868AC5C2DFDD74D2323 /* Pods_FZFileManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FZFileManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B764229D4F580220B01BA57A16CCB079 /* FZPathOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FZPathOperation.h; path = FZFileManager/Classes/FZPathOperation.h; sourceTree = "<group>"; };
 		BAB29F891BE9068736180C880E2548D9 /* FZFileCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FZFileCache.h; path = FZFileManager/Classes/FZFileCache.h; sourceTree = "<group>"; };
 		CE2A9A32B5124E69AB93BA07D244E7F9 /* FZFileManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FZFileManager.xcconfig; sourceTree = "<group>"; };
 		D15F97C2B8CF60AEA1B3F9FAF926776A /* Pods-FZFileManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FZFileManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D415D0AE1BE0B681026383FFD3BDDA92 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D415D0AE1BE0B681026383FFD3BDDA92 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D8A64EC16C0C66017BC8BEA179101088 /* FZFileDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FZFileDownloader.h; path = FZFileManager/Classes/FZFileDownloader.h; sourceTree = "<group>"; };
 		EAEA9B1FA47529D6A07915380D0F0691 /* FZPathOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FZPathOperation.m; path = FZFileManager/Classes/FZPathOperation.m; sourceTree = "<group>"; };
 		F1A39CFD5BD2EEE7562ACC7096A34642 /* Pods-FZFileManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FZFileManager_Tests-dummy.m"; sourceTree = "<group>"; };
-		F4EAE5F23E9A5C5B53639C4EA92C35A6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F4EAE5F23E9A5C5B53639C4EA92C35A6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		FB0638D21CA04AB3E1034B345ECBCF43 /* Pods-FZFileManager_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FZFileManager_Tests-Info.plist"; sourceTree = "<group>"; };
 		FC6F82E3FC19460165E60D3D092C0BC5 /* Pods-FZFileManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FZFileManager_Tests.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -156,11 +156,11 @@
 		5420271AED3C0A12439B4C0C75A972A3 /* FZFileManager */ = {
 			isa = PBXGroup;
 			children = (
+				7F3AA54870743A863C10D5DA512AD8A4 /* FZFileManager.h */,
 				BAB29F891BE9068736180C880E2548D9 /* FZFileCache.h */,
 				59E9C6C25E93449696A2DB30203B7085 /* FZFileCache.m */,
 				D8A64EC16C0C66017BC8BEA179101088 /* FZFileDownloader.h */,
 				554258D1D06DC1429F210FF11B7EDCC1 /* FZFileDownloader.m */,
-				7F3AA54870743A863C10D5DA512AD8A4 /* FZFileManager.h */,
 				6DBB6C9FD2B54C67224A67BA742A101C /* FZFileOperation.h */,
 				5BCF9F835E58B58D4B87347C031F9788 /* FZFileOperation.m */,
 				4AFB7CA4EA2A9EA7A6BFE487538BE45B /* FZFileReceiver.h */,
@@ -569,8 +569,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

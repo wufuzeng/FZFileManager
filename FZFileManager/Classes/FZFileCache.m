@@ -50,7 +50,9 @@
 }
 
 +(BOOL)clearCache{
-    return [FZPathOperation removeItemAtPath:[self FileCachesPath] error:nil];
+    return [self clearPath:[self FileCachesPath]];
 }
+
+
 
 @end

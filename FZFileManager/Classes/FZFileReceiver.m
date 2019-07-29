@@ -40,6 +40,7 @@ NSURLSessionDataDelegate//接收监控
                                result:(void (^)(NSData * _Nullable data,NSError * _Nullable error))result{
     
     NSString  *filePath = [FZFileReceiver filePathForkey:url];
+    [FZFileOperation removeItemAtPath:filePath error:nil];
     NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:url]];
     NSURLSessionDataTask *task = [self.session dataTaskWithRequest:request];
     NSMutableDictionary *info = [NSMutableDictionary dictionary];
@@ -126,7 +127,7 @@ NSURLSessionDataDelegate//接收监控
             }
         }else{
             if (resultBlock) {
-                [FZPathOperation removeItemAtPath:filePath error:nil];
+                [FZFileOperation removeItemAtPath:filePath error:nil];
                 resultBlock(data,error);
             }
         }
@@ -136,7 +137,7 @@ NSURLSessionDataDelegate//接收监控
  
 + (NSString *)filePathForkey:(NSString *)key{
     NSString *fileName = [self fileNameForKey:key];
-    NSString *downloadPath = [[FZFolderOperation caches] stringByAppendingPathComponent:@"Receivers"];
+    NSString *downloadPath = [[FZFolderOperation tmp] stringByAppendingPathComponent:@"Receivers"];
     return [downloadPath stringByAppendingPathComponent:fileName];
 }
 

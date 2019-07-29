@@ -53,6 +53,9 @@ NS_ASSUME_NONNULL_BEGIN
  */
 +(BOOL)createFolderAtPath:(NSString *)path error:(NSError *__autoreleasing *)error;
 
+/** 清理路径 */
++(BOOL)removePath:(NSString *)path;
+
 /** 清理Caches文件夹 */
 +(BOOL)clearCachesFolder;
 

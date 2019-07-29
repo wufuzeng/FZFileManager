@@ -8,10 +8,10 @@
 #ifndef FZFileManager_h
 #define FZFileManager_h
 
-#import "FZFileOperation.h"
-#import "FZPathOperation.h"
-#import "FZFolderOperation.h"
 #import "FZFileCache.h"
+#import "FZFileOperation.h"
+#import "FZFolderOperation.h"
+#import "FZPathOperation.h"
 #import "FZFileReceiver.h"
 #import "FZFileDownloader.h"
 

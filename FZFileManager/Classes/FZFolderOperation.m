@@ -81,27 +81,27 @@
     return [[NSFileManager defaultManager] createDirectoryAtPath:path withIntermediateDirectories:YES attributes:nil error:error];
 }
 
-/** 清理Caches文件夹 */
-+(BOOL)clearCachesFolder{
-    NSArray *subFiles = [self subpathsOfPath:[self caches] deep:NO error:nil];
+/** 清理路径 */
++(BOOL)removePath:(NSString *)path{
+    if ([self isExistingPath:path] == false) return true;
+    NSArray *subpaths = [self subpathsOfPath:path deep:NO error:nil];
+    if (subpaths.count == 0) return [self removeItemAtPath:path error:nil];
     BOOL result = true;
-    for (NSString *file in subFiles) {
-        NSString *absolutePath = [[self caches] stringByAppendingPathComponent:file];
+    for (NSString *subpath in subpaths) {
+        NSString *absolutePath = [path stringByAppendingPathComponent:subpath];
         result &= [self removeItemAtPath:absolutePath error:nil];
     }
     return result;
 }
 
+/** 清理Caches文件夹 */
++(BOOL)clearCachesFolder{
+    return [self removePath:[self caches]];
+}
+
 /** 清理Tmp文件夹 */
 +(BOOL)clearTmpFolder{
-    NSArray *subFiles = [self subpathsOfPath:[self tmp] deep:NO error:nil];
-    BOOL result = true;
-    
-    for (NSString *file in subFiles) {
-        NSString *absolutePath = [[self tmp] stringByAppendingPathComponent:file];
-        result &= [self removeItemAtPath:absolutePath error:nil];
-    }
-    return result;
+    return [self removePath:[self tmp]];
 }
 
 

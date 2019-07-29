@@ -36,15 +36,20 @@
     }];
     */
     
-     [[FZFileDownloader sharedDownloader] fileWithUrl:url progress:^(NSUInteger total, NSUInteger current) {
+     [[FZFileReceiver sharedReceiver] fileWithUrl:url progress:^(NSUInteger total, NSUInteger current) {
      NSLog(@"%ld,%ld",current,total);
-     } result:^(NSData * _Nullable data,NSString * _Nullable path, NSError * _Nullable error) {
+     } result:^(NSData * _Nullable data, NSError * _Nullable error) {
      if (error == nil) {
      NSLog(@"下载数据:%@",data);
      }else{
      NSLog(@"下载失败");
      }
      }];
+    
+    NSLog(@"%@",[FZFolderOperation caches]);
+    
+    [FZFolderOperation removePath:[FZFolderOperation caches]];
+    
     
 }
 
